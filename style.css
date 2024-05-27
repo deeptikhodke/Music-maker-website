@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+   background-image: url(music\ maker\ bg.jpg);
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    color: #caa79c;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .quote {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+    color: #ccc3b2;
+}
+  
+  footer {
+    color: #abb0c9;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .w {
+    background-image: url("images/snare1.png");
+  }
+  
+  .a {
+    background-image: url("images/snare2.png");
+  }
+  
+  .s {
+    background-image: url("images/snare3.png");
+  }
+  
+  .d {
+    background-image: url("images/snare4.png");
+  }
+  
+  .j {
+    background-image: url("images/kick.png");
+  }
+  
+  .k {
+    background-image: url("images/crash.png");
+  }
+  
+  .l {
+    background-image: url("images/hihat.png");
+  }
+  
+  .instrument-set {
+    margin: 8% auto;
+  }
+  
+  .game-over {
+    background-color: #E94F37;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #F4D35E;
+    opacity: 0.6;
+  }
+  
+  .red {
+    color: #E94F37;
+  }
+  
+  .instrument {
+    outline: none;
+    border: 8px solid #000000;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #b9aa93;
+    border-radius: 12px;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: 10px;
+    background-color: #da4a4a;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .drum {
+    outline: none;
+    border: 8px solid #4CAF50;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: 10px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .drum:hover {
+    background-color: #45a049;
+  }
+  
+  .drum.pressed {
+    transform: scale(0.95);
+  }
+  
